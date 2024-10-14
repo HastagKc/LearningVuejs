@@ -12,6 +12,7 @@ import SimpleMethod from './components/simpleMethod/SimpleMethod.vue';
 
 // -------------------------------- Computed Properties ---------------------------//
 import Computed from './components/simpleMethod/Computed.vue';
+import WritableComputed from './components/simpleMethod/WritableComputed.vue';
 </script>
 
 <template>
@@ -27,7 +28,9 @@ import Computed from './components/simpleMethod/Computed.vue';
   <!-- <SimpleMethod /> -->
 
   <!-- computed Properties -->
-  <Computed />
+  <!-- <Computed /> -->
+
+  <WritableComputed />
 </template>
 
 <style scoped></style>
