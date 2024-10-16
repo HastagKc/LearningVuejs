@@ -9,8 +9,6 @@ function sayHello() {
   <button v-on:click="sayHello">Click</button>
   <!-- shorthand  -->
   <button @click="sayHello">Click2</button>
-
-  
 </template>
 
 <style></style>
