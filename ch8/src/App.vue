@@ -36,7 +36,8 @@ const employee = {
   /> -->
 
   <!-- binding multiple properties using object -->
-  <ChildThree v-bind="employee" />
+  <!-- <ChildThree v-bind="employee" /> -->
+  <ChildThree :name="employee.name" :employeeType="employee.employeeType" />
 </template>
 
 <style scoped></style>
